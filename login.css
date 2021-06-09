@@ -54,27 +54,7 @@ body {
 .form-box input[type=checkbox] {
 	display: none;
 }
-.form-box label {
-	position: relative;
-	margin-left: 5px;
-	margin-right: 10px;
-	top: 5px;
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	cursor: pointer;
-}
-.form-box label:before {
-	content: "";
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	border-radius: 5px;
-	position: absolute;
-	left: 0;
-	bottom: 1px;
-	background-color: #ddd;
-}
+
 .form-box input[type=checkbox]:checked+label:before {
 	content: "\2713";
 	font-size: 20px;
@@ -82,9 +62,7 @@ body {
 	text-align: center;
 	line-height: 20px;
 }
-.form-box span {
-	font-size: 14px;
-}
+
 .form-box button {
 	background-color: deepskyblue;
 	color: #fff;
@@ -95,9 +73,6 @@ body {
 	font-size: 18px;
 	padding: 10px;
 	margin: 20px 0px;
-}
-span a {
-	color: #BBB;
 }
 
 @media screen and (max-width:1200px){
